@@ -43,7 +43,13 @@ class addOfTwoMatrices{
 		System.out.println("\nMatrix A:");
 		printMatrix(A, size, size);
 
-		//missing
+		int B[][] = { { 1, 1, 1, 1 },
+					{ 2, 2, 2, 2 },
+					{ 3, 3, 3, 3 },
+					{ 4, 4, 4, 4 } };
+		// Print the matrices B
+		System.out.println("\nMatrix B:");
+		printMatrix(B, size, size);
 
 		// Add the two matrices
 		int C[][] = add(A, B, size);
